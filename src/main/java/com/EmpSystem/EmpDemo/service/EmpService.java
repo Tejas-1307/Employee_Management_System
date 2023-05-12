@@ -32,6 +32,7 @@ public class EmpService {
 
     public void deleteEmp(int id){
         empRepo.deleteById(id);
-
     }
 }
+
+
